@@ -8,4 +8,12 @@
     <string name="row_composable">Row composable</string>
     <string name="contentFour">A layout composable that places its children in a vertical sequence.</string>
     <string name="column_composable">Column composable</string>
+    <string name="titleOne">Text composable</string>
+    <string name="descriptionOne">Displays text and follows the recommended Material Design guidelines.</string>
+    <string name="titleTwo">Image composable</string>
+    <string name="descriptionTwo">Creates a composable that lays out and draws a given Painter class object.</string>
+    <string name="descriptionThree">A layout composable that places its children in a horizontal sequence.</string>
+    <string name="titleThree">Row composable</string>
+    <string name="titleFour">Column composable</string>
+    <string name="descriptionFour">A layout composable that places its children in a vertical sequence.</string>
 </resources>

@@ -35,10 +35,17 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     QuadrantScreen(
-                        titleOne= "Android c'est moi 1",descriptionOne = "desciotion",
-                        titleTwo= "Android c'est moi 2",descriptionTwo = "desciotion",
-                        titleThree= "Android c'est moi 3",descriptionThree = "desciotion",
-                        titleFour= "Android c'est moi 4",descriptionFour = "desciotion")
+                        titleOne= stringResource(R.string.titleOne),descriptionOne = stringResource(
+                            R.string.descriptionOne
+                        ),
+                        titleTwo= stringResource(R.string.titleTwo),descriptionTwo = stringResource(
+                            R.string.descriptionTwo
+                        ),
+                        titleThree= stringResource(R.string.titleThree),descriptionThree = stringResource(R.string.descriptionThree),
+                        titleFour= stringResource(R.string.titleFour),descriptionFour = stringResource(
+                            R.string.descriptionFour
+                        )
+                    )
                 }
             }
         }
@@ -49,7 +56,7 @@ class MainActivity : ComponentActivity() {
 fun QuadrantScreen(titleOne: String,descriptionOne : String,titleTwo: String,descriptionTwo : String,titleThree: String,descriptionThree : String,titleFour: String,descriptionFour : String, modifier: Modifier = Modifier){
     Column(modifier = Modifier
         .fillMaxSize()
-        .padding(top = 50.dp, end = 50.dp)) {
+        .padding(top = 50.dp)) {
         Row(modifier = Modifier.weight(1f)) {
             Column(modifier = Modifier
                 .fillMaxSize()
